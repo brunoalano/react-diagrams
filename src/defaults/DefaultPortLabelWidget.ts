@@ -4,7 +4,7 @@ import {PortWidget} from "../widgets/PortWidget";
 
 export interface DefaultPortLabelProps {
 	model?: DefaultPortModel;
-	in: boolean;
+	in?: boolean;
 	label?: string;
 }
 

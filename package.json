@@ -20,7 +20,7 @@
   "typings": "./dist/src/main",
   "author": "dylanvorster",
   "scripts": {
-    "prepare": "export NODE_ENV=production && webpack && ./node_modules/node-sass/bin/node-sass --output-style compressed ./src/sass.scss > ./dist/style.css"
+    "prepare": "export NODE_ENV=production && webpack"
   },
   "dependencies": {
     "closest": "^0.0.1",
